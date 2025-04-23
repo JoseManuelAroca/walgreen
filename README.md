@@ -1,20 +1,20 @@
 WALGREEN
 =============================================
 WALGREEN: A platform for enhanced soil organic carbon (SOC) inference.  
-Utilizes machine learning and cloud-based technologies to provide researchers with 
+Utilizes machine learning and cloud-based technologies to provide researchers with
 tools to access Soil Organic Carbon data(SOC).ç
 
 Soil organic carbon (SOC) is a key indicator of soil health, fertility, and car-
 bon sequestration, making it essential for sustainable land management and
 climate change mitigation. However, large-scale SOC monitoring remains
 challenging due to spatial variability, temporal dynamics, and multiple in-
-fluencing factors. 
+fluencing factors.
 
 We present WALGREEN, a platform that enhances SOC inference by overcoming
-limitations of current applications. Leveraging machine learning and diverse 
-soil samples, WALGREEN generates predictive models using historical public 
+limitations of current applications. Leveraging machine learning and diverse
+soil samples, WALGREEN generates predictive models using historical public
 and private data. Built on cloud-based tech nologies, it offers a user-friendly
-interface for researchers, policymakers, and land managers to access carbon data, 
+interface for researchers, policymakers, and land managers to access carbon data,
 analyze trends, and support evidence-based decision-making.
 Implemented in Python, Java, and JavaScript, WALGREEN integrates Google Earth Engine
 and Sentinel Copernicus via scripting, OpenLayers, and Thymeleaf in a Model-View-Controller
@@ -62,7 +62,7 @@ If you need to stop and remove all containers, networks, and all images used by 
 docker compose down --rmi all
 ```
 
-Python REST API Server : pos-restapi_sen4farming 
+Python REST API Server : pos-restapi_sen4farming
 ================================================
 Code is located in api.This is a lightweight python3 REST API server that offers
 essential web service features in a simple package.
@@ -104,12 +104,12 @@ I have years of experience of.
 * [Python](http://python.org) is a high-level and versatile scripting language
   that provides powerful features with an exceptionally clear syntax.
 
-* [Flask](http://flask.pocoo.org/) is the Python web framework. 
+* [Flask](http://flask.pocoo.org/) is the Python web framework.
 
 * [uwsgi](https://uwsgi-docs.readthedocs.io/en/latest/) is the master daemon
-  that runs and supervises the Python worker processes. 
+  that runs and supervises the Python worker processes.
 
-* [PostgreSQL](http://postgresql.org) is the main database, 
+* [PostgreSQL](http://postgresql.org) is the main database,
 
 * [Redis](https://redis.io/) is a persistent in-memory database that is used
   as a storage for server-side session data and as a lightweight caching and
@@ -118,7 +118,7 @@ I have years of experience of.
 
 Run locally with Docker
 -----------------------
-The server fully supports Docker - the Docker image is created with 
+The server fully supports Docker - the Docker image is created with
 this [Dockerfile](Dockerfile).
 
 The base image is an [official python image](https://hub.docker.com/_/python)
@@ -139,13 +139,13 @@ Postgres and Redis for first time are:
     docker run --add-host=host.docker.internal:host-gateway -it --rm --name restpie-dev -p 8100:80  -v `pwd`/:/app/ -v /mnt/hgfs/solovmwarewalgreen/solovmwarewalgreen/projecto/SEN4CFARMING/api/files/:/app/files/   restpie-dev-image
 
 The rest of the times we just need to run 3 commands to prepare API:
-    sudo docker start redis
-    sudo docker start pos-restapi_sen4farming
-    sudo docker start restpie-dev
+sudo docker start redis
+sudo docker start pos-restapi_sen4farming
+sudo docker start restpie-dev
 To stop API:
-    docker stop redis
-    docker stop pos-restpie
-    docker stop restpie-dev
+docker stop redis
+docker stop pos-restpie
+docker stop restpie-dev
 
 
 Develop locally with Docker
@@ -176,7 +176,7 @@ The available API methods are implemented in api_x.py modules:
 * `api_gee_proc.py` contains the core api points for Google Earth Engine integration.
 * `api_senfarming.py` contains the core api points for interaction with backend.
 * `api_sentinelproc.py` contains the core api points for Copernicus integration.
-  
+
 
 Session data
 ------------
