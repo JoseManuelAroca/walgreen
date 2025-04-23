@@ -1,3 +1,12 @@
+# A Collaborative Platform for Soil Organic Carbon Inference Based on Spatiotemporal Remote Sensing Data
+
+
+Authors
+=============================================
+José Manuel Aroca-Fernández, José Francisco Díez-Pastor, Pedro Latorre-
+Carmona, Víctor Elvira, Gustau Camps-Valls, Rodrigo Pascual, César García-
+Osorio
+
 WALGREEN
 =============================================
 Soil organic carbon (SOC) is a key indicator of soil health, fertility, and car-
