@@ -198,10 +198,7 @@ uwsgi provides a simple mechanism to run long running tasks in background
 worker processes.
 
 
-Deploy to Linux server running Docker
--------------------------------------
 
-To be written. Docker compose, rsync+reload script etc.
 
 
 License
