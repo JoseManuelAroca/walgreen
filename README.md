@@ -1,9 +1,5 @@
 WALGREEN
 =============================================
-WALGREEN: A platform for enhanced soil organic carbon (SOC) inference.  
-Utilizes machine learning and cloud-based technologies to provide researchers with
-tools to access Soil Organic Carbon data(SOC).ç
-
 Soil organic carbon (SOC) is a key indicator of soil health, fertility, and car-
 bon sequestration, making it essential for sustainable land management and
 climate change mitigation. However, large-scale SOC monitoring remains
