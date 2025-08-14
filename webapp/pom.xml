@@ -31,17 +31,6 @@
 			<artifactId>spring-messaging</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.rest-assured</groupId>
-			<artifactId>rest-assured</artifactId>
-			<version>${restassured.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>commons-codec</groupId>
-					<artifactId>commons-codec</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
 			<groupId>jakarta.validation</groupId>
 			<artifactId>jakarta.validation-api</artifactId>
 			<version>3.0.2</version>
@@ -55,6 +44,21 @@
 		<dependency>
 			<groupId>org.thymeleaf.extras</groupId>
 			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-schema-validator</artifactId>
+			<version>${restassured.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>commons-codec</groupId>
+					<artifactId>commons-codec</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -230,12 +234,10 @@
 					<groupId>com.sun.mail</groupId>
 					<artifactId>mailapi</artifactId>
 				</exclusion>
-				<exclusion>
-					<groupId>com.fasterxml.jackson.core</groupId>
-					<artifactId>jackson-databind</artifactId>
-				</exclusion>
 			</exclusions>
 		</dependency>
+
+
 
 
 
