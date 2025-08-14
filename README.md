@@ -405,10 +405,7 @@ Run tests inside the DEV instance:
     docker exec -it restpie-dev bash -l -c 'python /app/test/test_redis.py'
 
 
-Deploy to Linux server running Docker
--------------------------------------
 
-To be written. Docker compose, rsync+reload script etc.
 
 
 License
