@@ -1268,7 +1268,7 @@ def guardardatoscoordenadasSentOC(opt, version):
             if x_pixel < 0 or x_pixel >= dataset.RasterXSize or y_pixel < 0 or y_pixel >= dataset.RasterYSize:
                 pixel_value = -99
                 print("Coordinates are outside the bounds of the image")
-                print('Properties y_pixel: ' + y_pixel + ',x_pixel:' + x_pixel )
+                print('Properties y_pixel: ' + str(y_pixel) + ',x_pixel:' + str(x_pixel) )
                 print('Properties geoTransform[0]: ' + geoTransform[0] + ',geoTransform[1]:' + geoTransform[1])
                 print('Properties geoTransform[3]: ' + geoTransform[3] + ',geoTransform[5]:' + geoTransform[5])
                 raise ValueError("Coordinates are outside the bounds of the image")
@@ -1316,7 +1316,7 @@ def guardardatoscoordenadasSentOC(opt, version):
             if x_pixel < 0 or x_pixel >= dataset.RasterXSize or y_pixel < 0 or y_pixel >= dataset.RasterYSize:
                 pixel_value = -99
                 print("Coordinates are outside the bounds of the image")
-                print('Properties y_pixel: ' + y_pixel + ',x_pixel:' + x_pixel )
+                print('Properties y_pixel: ' + str(y_pixel) + ',x_pixel:' + str(x_pixel) )
                 print('Properties geoTransform[0]: ' + geoTransform[0] + ',geoTransform[1]:' + geoTransform[1])
                 print('Properties geoTransform[3]: ' + geoTransform[3] + ',geoTransform[5]:' + geoTransform[5])
                 raise ValueError("Coordinates are outside the bounds of the image")

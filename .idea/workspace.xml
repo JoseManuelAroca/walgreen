@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a5b3059-7a6e-44f2-b4db-7d75ab5f4ee4" name="Changes" comment="">
+    <list default="true" id="4a5b3059-7a6e-44f2-b4db-7d75ab5f4ee4" name="Changes" comment="index chat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/py/senfarming.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/py/senfarming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/resources/static/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/investigación/ubu/doctorado/repositorio/walgreen",
     "node.js.detected.package.eslint": "true",
@@ -47,7 +49,17 @@
       <option name="presentableId" value="Default" />
       <updated>1745406332682</updated>
       <workItem from="1745406333721" duration="619000" />
+      <workItem from="1755486690252" duration="823000" />
+      <workItem from="1755487666396" duration="1130000" />
     </task>
+    <task id="LOCAL-00001" summary="index chat">
+      <created>1755488109292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755488109292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,5 +72,9 @@
         <option value="$PROJECT_DIR$/webapp/src/main/resources/static/float16-master/inspect/node.cjs" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="index chat" />
   </component>
 </project>
